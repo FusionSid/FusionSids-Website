@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="assets/css/main.css"/>
    </head>
    <body class="is-preload">
+      
       <!-- Wrapper -->
       <div id="wrapper">
          <!-- Main -->
@@ -21,20 +22,19 @@
 				   <li><a href="https://www.youtube.com/channel/UC8jJyY7_Hik7ShugCagxk9A" target="_blank" class="icon brands fa-youtube"><span class="label"></span></a></li>
 				   <li><a href="https://github.com/FusionSid" target="_blank" class="icon brands fa-github"><span class="label"></span></a></li>
 				</ul>
+
 			 </header>
-               <!-- Banner -->
+               <!-- Title -->
                <section id="banner">
                   <div class="content">
                      <header>
-						 <br>
-						 <br>
-						 <br>
+						      <br>
+						      <br>
+						      <br>
                         <h1>Hi I'm Siddhesh,<br />aka FusionSid</h1>
                         <p></p>
                      </header>
-                     <p>
-						 This is my website.
-					 </p>
+                     <p>This is my website.</p>
                      <!-- <ul class="actions">
                         <li><a href="#" class="button big">Learn More</a></li>
                      </ul> -->
@@ -43,7 +43,8 @@
                   <img src="images/pic10.jpg" alt="" />
                   </span>
                </section>
-               <!-- Section -->
+
+               <!-- Photos/Favourites -->
                <section>
                   <header class="major">
                      <h2>Favorites</h2>
@@ -52,15 +53,15 @@
                      <article>
                         <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
                         <h3>Photos</h3>
-                        <p>Text</p>
+                        <p>A gallery of my favorite photos</p>
                         <ul class="actions">
-                           <li><a href="#" class="button">More</a></li>
+                           <li><a href="photos.html" class="button">More</a></li>
                         </ul>
                      </article>
                      <article>
                         <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
                         <h3>Videos</h3>
-                        <p>Text</p>
+                        <p>Some videos that i've created</p>
                         <ul class="actions">
                            <li><a href="#" class="button">More</a></li>
                         </ul>
@@ -68,7 +69,7 @@
                      <article>
                         <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
                         <h3>Discord Bot</h3>
-                        <p>Text</p>
+                        <p>My duck discord bot</p>
                         <ul class="actions">
                            <li><a href="#" class="button">More</a></li>
                         </ul>
@@ -76,7 +77,7 @@
                      <article>
                         <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
                         <h3>Voice Assistant</h3>
-                        <p>Text</p>
+                        <p>A simple python voice assistant</p>
                         <ul class="actions">
                            <li><a href="#" class="button">More</a></li>
                         </ul>
@@ -84,15 +85,15 @@
                      <article>
                         <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
                         <h3>Piano</h3>
-                        <p>Text</p>
+                        <p>Some of my piano videos</p>
                         <ul class="actions">
                            <li><a href="#" class="button">More</a></li>
                         </ul>
                      </article>
                      <article>
                         <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-                        <h3>Minecraft</h3>
-                        <p>Text</p>
+                        <h3>This Website</h3>
+                        <p> Code for this website</p>
                         <ul class="actions">
                            <li><a href="#" class="button">More</a></li>
                         </ul>
@@ -101,9 +102,15 @@
                </section>
             </div>
          </div>
+         
          <!-- Sidebar -->
          <div id="sidebar">
             <div class="inner">
+               <section id="search" class="alt">
+                  <form method="post" action="#">
+                     <input type="text" name="query" id="query" placeholder="Search - DOesn't Work Yet" />
+                  </form>
+               </section>
                <!-- Menu -->
                <nav id="menu">
                   <header class="major">
@@ -111,14 +118,23 @@
                   </header>
                   <ul>
                      <li><a href="index.html">Homepage</a></li>
-                     <li><a href="generic.html">About Me</a></li>
-					 <li><a href="#">Coding</a></li>
-                     <li><a href="#">Photos</a></li>
+                     <li><a href="aboutme.html">About Me</a></li>
+                     <li>
+                        <span class="opener">Coding</span>
+                           <ul>
+                              <li><a href="#">Python</a></li>
+                              <li><a href="#">HTML/CSS</a></li>
+                              <li><a href="#">Github</a></li>
+                              <li><a href="#">Tutorials</a></li>
+                           </ul>
+                     </li>
+                     <li><a href="photos.html">Photos</a></li>
                      <li><a href="#">Videos</a></li>
                      <li><a href="#">More</a></li>
                   </ul>
                </nav>
-               <!-- Section -->
+
+               <!-- Contact -->
                <section>
                   <header class="major">
                      <h2>Get in touch</h2>
@@ -130,6 +146,7 @@
                </section>
             </div>
          </div>
+
       </div>
       <script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
