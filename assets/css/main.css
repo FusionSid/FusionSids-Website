@@ -2608,6 +2608,8 @@
      margin: 0 0 2em 4em;
      width: 50%;
 }
+
+
  #banner .image img {
      height: 100%;
      -moz-object-fit: cover;
@@ -2620,6 +2622,7 @@
      object-position: center;
      width: 100%;
 }
+
  @media screen and (orientation: portrait) {
      #banner {
          -moz-flex-direction: column-reverse;
